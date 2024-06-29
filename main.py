@@ -2,7 +2,7 @@
 from public.usage import USAGE as html
 from api.hello import router as hello_router
 from api.random import router as random_router
-from api.v1.groq import router as groq_router
+from api.v1.groq import groq_router
 from fastapi import FastAPI
 from fastapi.responses import Response
 app = FastAPI()
